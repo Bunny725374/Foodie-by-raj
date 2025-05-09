@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FOODIE PORTFOLIO</title>
+  <style> @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+   .para {
+      font-family:'lobster', cursive;
+      font-size: 35px;
+      
+     
+    }
+      .heading{
+      font-size:50px;
+          color: Orange;
+    margin:30px;
+    gap:30px;
+    font-style:bold;
+
+    
+      }
+      .home{
+      color: yellow;
+      list-style:none;
+      font-size:20px;
+      font-weight:bold;
+      
+          display: flex;
+          flex-direction: row;
+     justify-content: space-between;
+     gap:30px;
+     font-color:;
+  
+      }
+    .nav{
+    border:5px;
+    background-color:maroon;
+    border -color:black;
+     padding:10px;
+        width:100vw;
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    }
+    img {
+      border: 5px solid black ;
+      border-radius: 15%;
+      align-item: center;
+      
+    }
+        .about { 
+        background-color: olive;
+        width:100vw;
+        
+        padding:10px;
+        font-size:30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap:10px;
+      
+    }
+     .contact {
+     background-color: maroon;
+     font-size:30px;
+         color: orange;
+         padding:10px;
+        width :100vw;
+         display: flex;
+      flex-direction: row;
+      justify-content: center;
+         align-item:center;
+     }
+     .pot{
+         color:coral;
+          font-size:25px;
+          text-align: start;
+     }
+     button {
+         background-color:coral;
+         
+         
+         colour:solid black;
+         border-radius:10px;
+         padding:20px;
+         cursor:pointer;
+         display: flex;
+         flex-direction: column;
+      justify-content:flex-center;
+         align-item: flex-center;
+         
+     }
+     #about us{
+         color:olive;
+     }
+     a{
+         font-size:25px;
+     }
+     .dishes{
+         background-color: maroon;
+         padding:10px;
+         width:100vw;
+     }
+     #background{
+         border-radius:0px;
+         border-color:black;
+         border:30px;
+     }
+  </style>
+  </head>
+  <body>
+      
+          <div class="nav">
+              <h1 class="heading">
+     FOODIE 
+   
+  </h1>
+  
+  <ul class="home">
+      <li>HOME</li>
+      <li>ABOUT</li>
+      <li>MENU</li>
+      <li>TESTIMONIAL</li>
+      <li>CONTACT</li>
+  </ul>
+          </div>
+          
+      <div class="about">
+         
+          <img src="https://i.ibb.co/21pnmTW6/IMG-20250507-145108.jpg" alt="IMG-20250507-145108"width="450;"height="250;"/>
+       <div>  
+          <h6 id=> ABOUT US</h6>
+          <div class="para">
+          <p>
+              We serve food that brings joy. Created with care and served with love, our dishes satisfy both hunger and heart.
+
+Founded in 2020, Foodie has quickly become the city's favorite food delivery service, known for our commitment to quality, freshness, and exceptional6 taste.
+Our team of experienced chefs use only the finest to create memorable culinary experiences that will leave you craving for more.
+          </p>
+          </div>
+          </div>
+      </div>
+      <div>
+          <h5 class="contact">
+              MENU</h5>
+          <div class="Dishes">
+          <img src="https://i.ibb.co/HpFNDGVr/plate-biryani-with-bowl-chicken-vegetables.jpg"/>
+          <h6 class="pot">POT BIRIYANI</h6>
+          </div>
+          <img src="https://i.ibb.co/qYF05Zm8/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table.jpg"/>  <h6 class="pot">TANDOORI CHICKEN 
+          </h6>
+        <img src="https://i.ibb.co/VWmDCmNd/images-3.jpg"/>
+        <h6 class="pot"> MEALS</h6>
+        <img src="https://i.ibb.co/fz3JyBSz/b8027a03-cb21-4026-a714-c521231b4bc6.jpg"/>
+        <h6 class="pot">FRIED RICE </h6>
+       
+        </div>
+        <button> ORDER NOW</button>
+      </div>        </button>
+       <h5 class="contact">
+              CONTACT</h5>
+              <a href="rajeshkaligotla07@gmail.com">Email: rajeshkaligotla07@gmail.com ,    
+                  
+              </a>
+            <a href="9912436689"> Phone : 9912436689.
+              </a>
+ 
+  </body>
+  
+  </html>
+  
